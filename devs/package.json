@@ -1,0 +1,15 @@
+{
+  "name": "devs",
+  "version": "0.5.6",
+  "description": "This package is for the developers of sketch app. It is forbidden for anyone who did not develop the sketch app to enter into this folder. It is used for maintanance purposes and huge data control for the app",
+  "main": "app.js",
+  "scripts": {
+    "test": "sketch_dev"
+  },
+  "keywords": [
+    "sketch_devs",
+    "sketch"
+  ],
+  "author": "Martin Tembo",
+  "license": "MIT"
+}

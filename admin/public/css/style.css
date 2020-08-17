@@ -1,0 +1,50 @@
+.mobile-aside{
+    border-right:0.5px solid #DDDDDD;
+}
+.table{
+   
+}
+td{
+   
+   /*border:1px solid #DDDDDD;*/
+   /*display: block;*/
+   margin:;
+   width:;
+}
+.ml-100{
+    margin-left:100%;
+    transition: margin-left 0.5s linear;
+}
+
+.category{
+    position: absolute;
+    margin-top:-100%;
+    transition:margin-top 0.5s linear;
+}
+.category.active{
+    margin-top:0;
+    border-bottom:0.5px solid #DDDDDD;
+    height:100vh;
+}
+.bd-blue1{
+    border:1px solid #007EE7;
+}
+
+.bg-ablue{
+    background-color:rgba(11,53,255,0.2);
+}
+.mobile-aside input{
+    border-right:none;
+}
+@media screen and (min-width:500px){
+    .mobile-aside{
+        display:none;
+    }
+    .header{
+        padding:10px 0;
+        
+    }
+}
+#netState{
+    margin-bottom: 30%;
+}

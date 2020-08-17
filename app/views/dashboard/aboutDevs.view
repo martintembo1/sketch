@@ -1,0 +1,26 @@
+{% extends 'header.html' %}
+{% block about %}
+    <main class="main mt-20">
+    	<div class="settings-card bg-white w80 p10">
+    		<span class="c-blue">CONTACT DETAILS</span>
+    	</div>
+    	<div class="settings-card bg-white w80 p10">
+    	    <address class="c-blue">
+    	    	Email: 
+    	        <a class="pt8 c-blue"href="mailto:martintembo.zm@gmail.com">martintembo.zm@gmail.com</a><br>
+    	      
+    	</div>
+    	<div class="settings-card bg-white w80 p10">
+    		<address class="c-blue">
+    		  Phone: <a class="c-blue pt8" href="tel:+260957814031">+260957814031</a>
+    		  </address>
+    	</div>
+    	<div class="settings-card bg-white w80 p10">
+    		<address class="c-blue">
+    			Location: <a class="c-blue pt8" href="https://maps.google.com">Lusaka City</a>
+    		</address>
+    	</div>
+    </main>
+</body>
+</html>
+{% endblock %}

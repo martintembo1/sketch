@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>dashboard - sketch</title>
+    <!-- HTML -->
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/fonts/icofont.css" />
+    <link rel="stylesheet" href="/fonts/icofont.min.css"/>
+</head>
+<body class="bg-default" id="body" >
+    
+    %(stem.file(views/dashboard/header.view))%
+    
+    
+    <div class="root flow-y " id="root">
+        
+    </div>
+    
+    <div class="loading tc  w100 m50 none ">
+            <h1 class="w100"><i class="icofont-spinner-alt-2 c-blue pt20 loader dl rotate-C" onclick="changeCoordinates(this);"></i>
+            </h1>
+            <span class="gfont6 c-grey statusText">loading</span>
+            </div>
+    <div class="bg-alert b  w100 p10 none " id="netState" >
+<i class="icofont-info-circle c-white pd5"></i>
+<span class="c-white  pt8 p10" id="validate" > Something went wrong. Try again later</span>
+</div>
+
+    <script src="js/request.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

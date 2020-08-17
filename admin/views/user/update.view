@@ -1,0 +1,52 @@
+<style>
+    section div{
+        font-size:5pt;
+        margin:10px 0;
+        transition:transform 0.25s linear;
+    }
+    section div:hover{
+        /*background: #DDDDDD;*/
+        /*transform: translateX(20px);*/
+    }
+    section div input{
+        border-bottom:0.5px solid #0966CD;
+        width:40%;
+        
+    }
+    section div label{
+        margin:10px 0;
+        font-size:11pt;
+    }
+    .sh-in{
+        box-shadow: 4px 6px 8px rgba(0,0,0,0.9) inset;
+    }
+    .bg-grey{
+        background-color:#B5B5B5;
+    }
+</style>
+<section>
+<div class="bg-white c-grey p10 flx-c">
+    <span>Update Admin Info</span>
+    <form name="updateform" id="updateForm">
+        <label for="fullname" class="flx-r"><span class="">Full Name</span><input type="text" name="text" id="fullname" /></label>
+        <label for="username" class="flx-r"><span class="">Username</span><input type="text" name="username" id="username" /></label> 
+        <label for="myphone" class="flx-r"><span class="">My Phone</span><input type="number" name="myphone" id="myphone" /></label>
+        <label for="myphone" class="flx-r"><span class="">Workplace</span><input type="text" name="text" id="workplace" /></label> 
+    </form>
+</div>
+
+<div class="bg-white c-grey p10 flx-c">
+    <span>Update Company Info</span>
+    <form name="updateform" id="updateForm">
+        <label for="fullname" class="flx-r"><span class="">Title</span><input type="text" name="text" id="fullname" /></label>
+        <label for="username" class="flx-r"><span class="">Name</span><input type="text" name="username" id="username" /></label> 
+        <label for="myphone" class="flx-r"><span class="">Mobile</span><input type="number" name="myphone" id="myphone" /></label>
+        <label for="myphone" class="flx-r"><span class="">Telephone</span><input type="text" name="text" id="workplace" /></label> 
+        <label for="password" class="flx-r"><span class="">Email</span><input type="password" name="oldpassword" id="oldpassword" /></label>
+    </form>
+</div>
+</section>
+<div class="bg-white fxd b-0 w100 flx-r pd5">
+    <button type="button" class="p10 bg-blue c-white w50 sh rd m2">Update Admin</button>
+    <button type="button" class="p10 bg-white c-blue w50 bg-grey rd m2">Update Company</button>
+</div>

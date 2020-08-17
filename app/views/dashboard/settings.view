@@ -1,0 +1,64 @@
+%(stem.file(views/dashboard/header.view))%
+    <main class="main bg-default mt-20">
+    	<div class="settings-card bg-white w80 retailer p10">
+    		<span onclick="nextShow(this);"class="c-blue">Retailer <i class="icofont-thin-right"></i></span>
+    		<ol class="">
+    			<li><a href="#" class="c-blue pt11"><i class="icofont-user c-green"></i> Change Credentials</a><br>
+    			<span>Owner's name, Company name,Phone number</span></li>
+    			<li><a href="#" class="c-blue pt11"><i class="icofont-lock c-yellow"></i> Security</a><br>
+    			<span>Change your password and verification utilities</span>
+    			</li>
+    			<li><a href="#" class="c-blue pt11"><i class="icofont-spinner-alt-1 c-grey"></i> Set Recovery</a><br>
+    			<span>You can set yout recovery address here</span>
+    			</li>
+    			<li><a href="#" class="c-blue pt11"><i class="icofont-google-map c-alert"></i> Custom Location</a><br>
+    			<span>Change detected location</span>
+    			</li>
+    			<li><a href="#" class="c-blue pt11"><i class="icofont-business-man-alt-2 c-dark"></i> Switch Owner</a><br>
+    			<span>Change the owner of the company</span>
+    			</li>
+    		</ol>
+    	</div>
+    	<div class="settings-card bg-white w80 items p10">
+    		
+    	</div>
+    	<div class="settings-card bg-white w80 display p10">
+    	    <span onclick="nextShow(this);" class="c-blue">Display <i class="icofont-thin-right"></i></span>
+    	    <ol class="">
+    	        <li><a href="#" class="c-blue pt11"><i class="icofont-monitor c-green"></i> Default Screen</a><br>
+    	            <span>Choose whether to start in desktop or mobile mode</span></li>
+    	        <li><a href="#" class="c-blue pt11"><i class="icofont-listing-box c-gdark"></i> Stock View</a><br>
+    	            <span>Set the way you want items to be viewed</span>
+    	        </li>
+    	        <li id="colorMode"><a href="color.html" class="c-blue pt11"><i class="icofont-contrast c-grey"></i> Color Mode</a><br>
+    	            <span>Set color to either light mode(day) or dark mode (night)</span>
+    	        </li>
+    	    </ol>
+    	    
+    	</div>
+    	<div class="settings-card bg-white w80 p10">
+    		<span class="c-blue"><a href="/privacy" class="c-blue"><i class="icofont-ui-fire-wall"></i> Privacy & Policy</a></span>
+    	</div>
+    	<div class="settings-card bg-white w80 p10">
+    		<span class="c-blue"><a href="/terms" class="c-blue"><i class="icofont-hand"></i>Terms & Conditions</a></span>
+    	</div>
+    	<div class="settings-card bg-white w80 p10">
+    		<span class="c-blue"><a href="/dataEncryption" class="c-blue"><i class="icofont-key"></i> Data Encryption</a></span>
+    	</div>
+    	<div class="settings-card bg-white w80 p10">
+    		<span class="c-blue"><a href="dashboard/feedback" class="c-blue"><i class="icofont-chat"></i> Send Feedback</a>
+    		</span>
+    	</div>
+    	<div class="settings-card bg-white w80 p10">
+    		<span class="c-blue"><a href="/about" class="c-blue"><i class="icofont-code"></i> About Developers</a>
+    		</span>
+    	</div>
+    	
+    </main>
+    
+    
+</body>
+<script src="admin.js"></script>
+<script src="dashboad.js"></script>
+<script src="requester.js"></script>
+</html>

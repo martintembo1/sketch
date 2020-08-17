@@ -1,0 +1,21 @@
+%(stem.file(views/dashboard/header.view))%
+    <main class="main mt-20">
+    
+    	<div class="bg-green w100 gfont5 c-white pt8" data-status="" id="feedback_status"></div>
+    
+    	<div class="feedback-form mt-20 rd ">
+    		<form class="" autofocus="on" id="feedback">
+    			<label class="pt13 gfont" for="feedback">Say something...</label>
+    			<br>
+    			<textarea placeholder="Your text goes here" class="feedback" name="feedback" required></textarea>
+    			<button onclick="validateOK();" class="btn rd bg-blue c-white" type="button">Submit</button>
+    		</form>
+    	</div>
+    	</div>
+    	</main>
+    	<div class="loading tc  w100 m50 none ">
+    	<h1 class="w100"><i class="icofont-spinner-alt-2 c-blue pt20 loader dl rotate-C" onclick="changeCoordinates(this);"></i></h1>
+    	<span class="gfont6 c-grey statusText">loading</span>
+    	</div>
+    
+   <script src="/js/forms.js"></script>

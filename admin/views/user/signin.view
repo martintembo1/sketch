@@ -1,0 +1,19 @@
+%(stem.file(views/user/header.view))%
+
+	<div class="forms">
+	
+		<div style="color:#DDDDDD;" >t</div>
+		<div class="loginForm rd flx-c">
+			<form class="form login" method="post" action="/login" id="loginForm">
+				<label class="lb b-user" for="userAccount"><i class="icofont-ui-user"></i>Account Name</label>
+				<input type="username" class="inputField username" id="usernameField" name="userAccount" placeholder="Account Name" required/>
+				<label class="lb lb-password pt11" for="passwordField"><i class="icofont-ui-password"></i>Password</label>
+				<input type="password" class="inputField password pt11" id="passwordField" name="userPassword" placeholder="Password" required/>
+				<p class="c-grey pt8 mt-5">
+				   <i class="icofont-info-square c-alert"></i> By clicking log in in you agree to the terms and conditions of cookies
+				</p>
+				
+				<button type="button" data-form="login" onclick="login();" class="btn btn-login rd float-r">Login</button>
+			</form>
+		</div>
+	</div>

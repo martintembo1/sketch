@@ -1,0 +1,80 @@
+<style>
+  @media screen and (max-width:500px){
+    .mt-30{
+        margin-top:30%;
+    }
+    .bd-dot-blue{
+        border:2px dotted #0C77FF;
+    }
+    .mr-0{
+        margin-right: 0;
+    }
+    button{
+        background-color:#FFD500;
+    }
+    .icon{
+        margin:-45% 20%;
+    }
+    #myphoto{
+        height:200px;
+        width:180px;
+    }
+    .desk{
+        display:;
+    }
+  }
+  @media screen and (min-width:500px){
+      #updateForm{
+          display:flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          
+      }
+      .icon{
+          margin:-30% 20%;
+      }
+      .bd-dot-blue{
+          border:2px dotted #0C77FF;
+      }
+      button[onclick='updateProfile();']{
+          background-color:#FFD500;
+      }
+  }
+</style>
+<div class="mt-30">
+    <div class="bg-white rd w70 ma p10 flex-c">
+        <form class="myForm" id="updateForm" >
+        <div class="desk">
+        <label class="" for="uploadPicture">
+        <img src="%{myphoto}%" class="db ma bd-gredy rd" alt="myphoto" id="myphoto" />
+        <i class="icofont-image abs pt50 c-white icon"></i>
+        <input type="file" class="none" id="uploadPicture" accept="image/*" name="myphoto"/>
+        </label>
+        </div>
+        <hr class="bg-grey" />
+        <div class="desk">
+        <label class="db tl pt8 c-grey">Fullname:</label>
+        <span>
+        <i  class="icofont-pencil c-blue"></i>
+        <input type="text" class="bd-dot-blue bd pd5 rd ma" value="%{fullname}%" name="myNames" />
+        </span>
+        <label class="db tl pt8 c-grey">Email:</label>
+        <span>
+        <i  class="icofont-mail c-blue"></i>
+        <input type="text" class="bd-dot-blue bd pd5 rd ma" value="%{email}%" name="myEmail" />
+        </span>
+        <label class="db tl pt8 c-grey">Location:</label>
+        <span>
+        <i  class="icofont-google-map c-alert"></i>
+        <input type="text" class="bd-dot-blue bd pd5 rd ma" value="%{location}%" name="myLocation" />
+        </span>
+        <label class="db tl pt8 c-grey">Short Bio</label>
+        <span>
+        <i  class="icofont-pencil c-blue"></i>
+        <textarea type="text" id="mybio" class="bd-dot-blue bd pd5 rd ma " placeholder="%{bio}%" name="myBio"></textarea>
+        </span>
+        <button type="button" class="db  c-white w70 pd5 ma" onclick="updateProfile();">Update</button>
+        </form>
+        </div>
+    </div>
+</div>

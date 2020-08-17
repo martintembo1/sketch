@@ -1,0 +1,30 @@
+%(stem.file(views/user/header.view))%
+<main>
+	<div class="forms">
+		<div>TITLE</div>
+		<div class="loginForm rd flx-c">
+			<form class="form login" method="post" action="/login" id="loginForm">
+				<label class="lb b-user" for="userAccount"><i class="icofont-ui-user"></i>Account Name</label>
+				<input type="username" class="inputField username" id="usernameField" name="userAccount" placeholder="Account Name" required/>
+				<label class="lb lb-password pt11" for="passwordField"><i class="icofont-ui-password"></i>Password</label>
+				<input type="password" class="inputField password pt11" id="passwordField" name="userPassword" placeholder="Password" required/>
+				<p class="c-grey pt8 mt-5">
+				   <i class="icofont-info-square c-alert"></i> By clicking log in in you agree to the terms and conditions of cookies
+				</p>
+				
+				<button type="button" data-form="login" onclick="validate();" class="btn btn-login sh">Login</button>
+			</form>
+		</div>
+	</div>
+	
+	<div class="loading tc  w100 m50 none ">
+	<h1 class="w100"><i class="icofont-spinner-alt-2 c-blue pt20 loader dl rotate-C" onclick="changeCoordinates(this);"></i></h1>
+	<span class="gfont6 c-grey statusText">loading</span>
+	</div>
+	</main>
+	
+	<script src="/js/loader.js"></script>
+	<script src="/js/forms.js"></script>
+	</body>
+    
+	</html>

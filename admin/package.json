@@ -1,0 +1,17 @@
+{
+  "name": "admin",
+  "version": "0.1.9",
+  "description": "Admin panel for the sketch app",
+  "main": "app.js",
+  "scripts": {
+    "test": "sketch_app"
+  },
+  "keywords": [
+    "sketch",
+    "app",
+    "sells",
+    "cart"
+  ],
+  "author": "martintembo1",
+  "license": "ISC"
+}

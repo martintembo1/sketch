@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="fonts/icofont.css" />
+  <link rel="stylesheet" href="fonts/icofont.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/request.js"></script>
+</head>
+<style>
+    *{
+       
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    form input{
+        background-color: #C3C3C3;
+        border:none;
+        padding:5px;
+        margin:5px auto;
+        outline:none;
+        border-radius:5px;
+    }
+    label[for="picture"]{
+        background:#1274BA;
+        border-radius: 5px;
+        color:#fff;
+        padding:5px;
+    }
+    
+    #picture{
+        display:none;
+    }
+    button{
+        margin:5px auto;
+        background-color:#C54E23;
+        border:none;
+        padding:5px 20px;
+        color:#fff;
+        
+    }
+</style>
+<body >
+<form action="/" method="post" id="sss">
+    <label>Username</label>
+<input type="username" name="username" id="username"/>
+<label>Password</label>
+<input type="password" name="password" id="password"/>
+<label for="picture">Upload Picture</label>
+<input type="file" accept="image/*" id="picture" name="picture"/>
+<button type="submit" onclick="">send</button>
+</form>
+<button type="button" onclick="auth();">Ajax Form</button>
+<img src="uploads/me.jpg" width='300px'/>
+<main id="root"></main>
+<script src="js/auth.js"></script>
+</body>

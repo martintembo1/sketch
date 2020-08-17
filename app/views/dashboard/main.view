@@ -1,0 +1,14 @@
+%(stem.file(views/dashboard/header.view))%
+
+	<main class="mt-20">
+	<div class="bg-blue c-white  p10 gfont5 w100 flx-r"><i class="icofont-user"></i> %{username}%</div>
+		%(loop(tabs))%{
+		<div class='w100 bg-dark ma c-white p10 gfont2 flx-r tabs'>
+			<i class='c-white  gfont3'>%{tabs}%</i>
+		<i class='icofont-thin-right'></i>
+		</div>}
+			
+		%(end)%
+	</main>
+	
+	<script src="/js/tabs.js"></script>

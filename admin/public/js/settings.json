@@ -1,0 +1,15 @@
+{
+	"dark":{
+		"fonts":"white",
+		"body":"bg-custom2",
+		"header":{
+			"fonts":"c-blue",
+			"bg":" bg-dark"
+		},
+		"settingsCard":{
+			"bg":"bg-custom",
+			"font":"c-wgite"
+		}
+		
+	}
+}

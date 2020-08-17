@@ -1,0 +1,12 @@
+
+    	<div class="bg-green w100 gfont5 c-white pt8" data-status="" id="feedback_status"></div>
+    
+    	<div class="feedback-form mt-20 rd ">
+    		<form class="feedback" autofocus="on" id="feedback">
+    			<label class="pt13 gfont" for="feedback">Say something...</label>
+    			<br>
+    			<textarea placeholder="Your text goes here" class="feedback" name="feedback" required></textarea>
+    			<button onclick="feedbackForm();" class="btn rd bg-blue c-white" type="button">Submit</button>
+    		</form>
+    	</div>
+    	</div>

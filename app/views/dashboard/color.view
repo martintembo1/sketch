@@ -1,0 +1,13 @@
+{% extends 'header.html' %}
+{% block settings %}
+    <main class="main bg-default mt-20">
+        <div class="settings-card bg-white w80 c-blue flx-r p10" onclick="darkMode(this);">
+        	<span class="">Switch Dark</span><i class="icofont-moon"></i>
+        </div>
+        
+        
+    </main>
+    <script src="/js/settings.js"></script>
+</body>
+</html>
+{% endblock %}

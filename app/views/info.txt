@@ -1,0 +1,1 @@
+For storing template file e.g (.html)

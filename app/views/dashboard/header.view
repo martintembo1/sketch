@@ -1,0 +1,23 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.1">
+    <title>NEW TO SKETCH</title>
+    <!-- HTML -->
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/fonts/icofont.css" />
+    <link rel="stylesheet" href="/fonts/icofont.min.css" />
+    <script src="/js/jquery/jquery.js"></script>
+</head>
+
+<body class="bg-default">
+    <header class="flx-r bg-white p5">
+        <div class="c-blue pt15"><a  href="/dashboard" class="c-blue"><i class="icofont-thin-left"></i></a>|</div>
+			<a href="/settings" class="c-blue b-block ">
+				<i class="icofont-ui-settings c-blue"></i> settings
+			</a>
+		</div>
+	</header>

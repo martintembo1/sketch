@@ -1,0 +1,4 @@
+<div class="mt-20 tc">
+    <i class="icofont-connection pt50 c-alert tc"></i>
+    <span class="db c-alert tc">Something went wrong!</span>
+</div>

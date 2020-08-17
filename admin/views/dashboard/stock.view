@@ -1,0 +1,58 @@
+<style>
+    section div{
+        font-size:5pt;
+        margin:5px 0;
+        transition:transform 0.25s linear;
+    }
+    section div:hover{
+        /*background: #DDDDDD;*/
+        transform: translateX(20px);
+    }
+    section div input{
+        border:2px dotted #0050FF;
+        
+    }
+</style>
+
+<section class="flx-c flow-y mt-20 pt8">
+<div class="bg-white p10 flx-r " data-link="/add">
+    <label for="number" class="c-black btn">Add Stock</label>
+    <input type="number" name="number" id="number" class="bg-white c-grey " placeholder="Number of Stocks"maxlength=2 required/>
+</div>
+<div class="bg-white p10 flx-r" data-link="/update">
+    <span class="btn c-black">Update Stock Data</span><i class="icofont-data btn c-yellow"></i>
+</div>
+<div class="bg-white p10 flx-r " data-link="/all">
+    <span class="btn c-black">Show all</span><i class="icofont-shopping-cart btn c-dark"></i>
+</div>
+<div class="bg-white p10 flx-r" data-link="/accounting" onclick="showNext(this);">
+    <span class="btn c-black">Accounting</span><i class="icofont-dollar btn c-green"></i>
+</div>
+
+<div class="bg-white flx-c w70 rd p10 ma none" data-link="/statistics">
+    <span class="gfont2 flx-r pt8 m5"><span class="c-green ">Purchases</span> K150000</span>
+    <span class="gfont2 flx-r pt8 m5"><span class="c-black">Net Purchases</span>K134000</span>
+    <span class="gfont2 flx-r pt8 m5"><span>Gross Profit</span> K50000</span>
+    <span class="gfont8 flx-r pt8 btn bb-grey" ><span>Net Profit</span><span class="c-alert gfont2">K70,000</span></span>
+</div>
+<div class="bg-white flx-r p10" data-link="/report">
+    <span class="c-black btn ">Stock Report</span> <i class="icofont-chart-bar-graph btn c-black"></i>
+</div>
+<div class="bg-white p10 flx-r" data-link="remove" >
+    <span class="btn c-alert gfont8">Remove Stock</span><i class="icofont-bin btn c-alert"></i>
+</div>
+
+</section>
+    	<div class="settings-card w70 p10 bg-white none flx-c">
+    		<span class="c-blue">
+    		     <button class="bg-blue sh rd c-white w100 p10 m2" onclick="voice_search(this);"> <i class="icofont-comment"></i> Add Details</button>
+    		 </span>
+    		<label for="stockImage" class="img bg-green h30 w100 tc">
+    			<i class="icofont-shopping-cart db mt-20 pt50 c-white"></i>
+    		</label>
+    		<button class="rd p10"><i class="icofont-plus c-green"></i> add stock</button>
+    	</div>
+    	
+    	
+        	
+        	<button class="bg-orange w100 p10 c-white b">submit all</button>

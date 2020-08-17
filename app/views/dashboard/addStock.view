@@ -1,0 +1,116 @@
+{% extends "header.html"%}
+{% block addStock %}
+    <main class="main bg-default  mt-20 w100">
+    	<div class="settings-card w70 p10 bg-white flx-c">
+    		<span class="c-blue">
+    		     <button class="bg-blue sh rd c-white w100 p10 m2" onclick="voice_search(this);"> <i class="icofont-comment"></i> Add Details</button>
+    		 </span>
+    		<label for="stockImage" class="img bg-green h30 w100 tc">
+    			<i class="icofont-shopping-cart db mt-20 pt50 c-white"></i>
+    		</label>
+    		<button class="rd p10"><i class="icofont-plus c-green"></i> add stock</button>
+    	</div>
+    	
+    	<div class="settings-card w70 p10 bg-white flx-c">
+    	    <span class="c-blue">
+    	    	<button class="bg-blue sh rd c-white w100 p10 m2" onclick="voice_search(this);"> <i class="icofont-comment"></i> Add Details</button>
+    	    </span>
+    	    <label for="stockImage" class="img bg-green h30 w100 tc">
+    	        <img src="static/images/clothing.jpg" class="w100 h30"/>
+    	    </label>
+    	    <button class="rd p10"><i class="icofont-plus c-green"></i> add stock</button>
+    	</div>
+    	  	<div class="settings-card w70 p10 bg-white flx-c">
+    	  	    <span class="c-blue">
+    	  	        <button class="bg-blue sh rd c-white w100 p10 m2" onclick="voice_search(this);"> <i class="icofont-comment"></i> Add Details</button>
+    	  	    </span>
+    	  	    <label for="stockImage" class="img bg-green h30 w100 tc">
+    	  	        <i class="icofont-shopping-cart db mt-20 pt50 c-white"></i>
+    	  	    </label>
+    	  	    <button class="rd p10"><i class="icofont-plus c-green"></i> add stock</button>
+    	  	</div>
+    	  	  	<div class="settings-card w70 p10 bg-white flx-c">
+    	  	  	    <span class="c-blue">
+    	  	  	        <button class="bg-blue sh rd c-white w100 p10 m2" onclick="voice_search(this);"> <i class="icofont-comment"></i> Add Details</button>
+    	  	  	    </span>
+    	  	  	    <label for="stockImage" class="img bg-green h30 w100 tc">
+    	  	  	        <i class="icofont-shopping-cart db mt-20 pt50 c-white"></i>
+    	  	  	    </label>
+    	  	  	    <button class="rd p10"><i class="icofont-plus c-green"></i> add stock</button>
+    	  	  	</div>
+    	  	  	  	<div class="settings-card w70 p10 bg-white flx-c">
+    	  	  	  	    <span class="c-blue">
+    	  	  	  	        <button class="bg-blue sh rd c-white w100 p10 m2" onclick="voice_search(this);"> <i class="icofont-comment"></i> Add Details</button>
+    	  	  	  	    </span>
+    	  	  	  	    <label for="stockImage" class="img bg-green h30 w100 tc">
+    	  	  	  	        <i class="icofont-shopping-cart db mt-20 pt50 c-white"></i>
+    	  	  	  	    </label>
+    	  	  	  	    <button class="rd p10"><i class="icofont-plus c-green"></i> add stock</button>
+    	  	  	  	</div>
+    	  	  	  	  	<div class="settings-card w70 p10 bg-white flx-c">
+    	  	  	  	  	    <span class="c-blue">
+    	  	  	  	  	        <button class="bg-blue sh rd c-white w100 p10 m2" onclick="voice_search(this);"> <i class="icofont-comment"></i> Add Details</button>
+    	  	  	  	  	    </span>
+    	  	  	  	  	    <label for="stockImage" class="img bg-green h30 w100 tc">
+    	  	  	  	  	        <i class="icofont-shopping-cart db mt-20 pt50 c-white"></i>
+    	  	  	  	  	    </label>
+    	  	  	  	  	    <button class="rd p10"><i class="icofont-plus c-green"></i> add stock</button>
+    	  	  	  	  	</div>
+    	  	  	  	  	  	<div class="settings-card w70 p10 bg-white flx-c">
+    	  	  	  	  	  	    <span class="c-blue">
+    	  	  	  	  	  	        <button class="bg-blue sh rd c-white w100 p10 m2" onclick="voice_search(this);"> <i class="icofont-comment"></i> Add Details</button>
+    	  	  	  	  	  	    </span>
+    	  	  	  	  	  	    <label for="stockImage" class="img bg-green h30 w100 tc">
+    	  	  	  	  	  	        <i class="icofont-shopping-cart db mt-20 pt50 c-white"></i>
+    	  	  	  	  	  	    </label>
+    	  	  	  	  	  	    <button class="rd p10"><i class="icofont-plus c-green"></i> add stock</button>
+    	  	  	  	  	  	</div>
+    	  	  	  	  	  	  	<div class="settings-card w70 p10 bg-white flx-c">
+    	  	  	  	  	  	  	    <span class="c-blue">
+    	  	  	  	  	  	  	        <button class="bg-blue sh rd c-white w100 p10 m2" onclick="voice_search(this);"> <i class="icofont-comment"></i> Add Details</button>
+    	  	  	  	  	  	  	    </span>
+    	  	  	  	  	  	  	    <label for="stockImage" class="img bg-green h30 w100 tc">
+    	  	  	  	  	  	  	        <i class="icofont-shopping-cart db mt-20 pt50 c-white"></i>
+    	  	  	  	  	  	  	    </label>
+    	  	  	  	  	  	  	    <button class="rd p10"><i class="icofont-plus c-green"></i> add stock</button>
+    	  	  	  	  	  	  	</div>
+    	<form class="vs-hidden">
+    		<input type="file" accept="*/image" name="stockImage" id="stockImage"/>
+    	</form>
+
+    </main>
+    
+        	<form class="bg-white w70 flex-c rd p10 dialog voice-card" method="post">
+        	    <span class="">
+        	        <button class="bg-blue rd c-white w80 db ma p10 m2"> <i class="icofont-number"></i> Quantity</button>
+        	    </span>
+        	    <input type="number" class=" w80 bd-blue p10 rd db ma" placeholder="quantity" /> <br>
+        	    <span class="">
+        	        <button class="bg-green rd c-white w80 db ma p10 m2"> <i class="icofont-dollar"></i>Price</button>
+        	    </span>
+        	    <input type="number" class=" w80 bd-green p10 rd db ma" placeholder="quantity" /> <br>
+        	    <button class="bg-orange rd c-white w80 db ma p10 m2"> Done</button>
+        	</form>
+        	
+        	<button class="bg-orange w100 p10 c-white b">submit all</button>
+    <script src="static/js/main.js"></script>
+    <script>
+    	let addPic = (el)=>{
+    		request = new XMLHttpRequest();
+    		
+    		request.open("POST","addStock.html")
+    		request.onreadystatechange = () =>{
+    			if(this.readyState === 4 && this.status === 200){
+    				alert(this.responseText)
+    			}else{
+    				alert("Loading")
+    			}
+    		}
+    		let myForm = document.getElementById("forms");
+    		let formData = new Form(myForm);
+    		
+    		req.send(formData);
+    	}
+    </script>
+    
+{% endblock %}

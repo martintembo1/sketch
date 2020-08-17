@@ -1,0 +1,56 @@
+   <div class="product-detail">
+                    <button type="button" class="btn w100 bg-blue c-white pd5 tc db" onclick="back();">back</button>
+                    <a href="#" class="good bg-default dl tc  m5 rd pd5">
+                    <i class="icofont-bag m2 none c-grey pt50"></i>
+                    <img src="%{image}%" width="150px" height="150px"/>
+                    <br/>
+                       <span>
+                        <i class="icofont-star c-yellow"></i>
+                    </span>
+                    <br/>
+                    <span href="#" class="pt11 dl c-dark pd5">%{name}%</span>
+                 
+                </a><span class="btn bg-green c-white " onclick="order(this);" data-price="%{price}%" data-name="%{name}%" data-id="%{id}%" >Order +</span>
+                <div class="details flx-c" >
+                    <span href="#" class="flx-c w100  ma c-dark"  onclick="expandEL(this);">
+                        <div class="flx-r w90 ma pd5 bd-grey">
+                            <span>Short Details</span>
+                            <span><i class="icofont-thin-down"></i></span>
+                        </div>
+                            <table class="c-grey bg- pt8 tc none">
+                                <tr>
+                                    <td>Price: </td>
+                                    <td>K%{price}%</td>
+                                </tr>
+                                <tr>
+                                    <td>Since: </td>
+                                    <td>%{datefrom}%</td>
+                                </tr>
+                                <tr>
+                                    <td>Location: </td>
+                                    <td>%{location}%</td>
+                                </tr>
+                            </table>
+                        </span>
+                        
+                          <span href="#" class="flx-c w100  ma c-dark" id="tab" onclick="expandEL(this);">
+                        <div class="flx-r w90 ma pd5 bd-grey">
+                            <span>Full Description</span>
+                            <span><i class="icofont-thin-down"></i></span>
+                        </div>
+                            <p class="pt8 w80 ma none">
+                                %{long}%
+                            </p>
+                        </span>
+                        
+                           <span href="#" class="flx-c w100  ma c-dark" id="tab" onclick="expandEL(this);">
+                        <div class="flx-r w90 ma pd5 bd-grey">
+                            <span>Feedback</span>
+                            <span><i class="icofont-thin-down"></i></span>
+                        </div>
+                            <input type="text" class="pt8 w80 ma bd-blue p10 "/>
+                            <button type="button" class="p10 w80 bg-yellow c-white ma none" onclick="sendFeedback(this);" data-id="%{id}%">send</button>
+                            
+                        </span>
+                </div>
+            </div>

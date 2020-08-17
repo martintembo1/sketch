@@ -1,0 +1,23 @@
+%(stem.file(views/user/header.view))%
+
+<div class="bg-white pd10 h100">
+
+    <form class="flx-c w70 login" method="post" action="login">
+        <label class="c-grey pt8 m2" for="usernameField">Username</label>
+        <span class="m10">
+        <input type="username" id="usernameField" name="userAccount" placeholder="rosemary" class="bb-grey pd5 clickable-blue " onclick="inputData(this);" required/>
+        <span class="c-alert pt8 none">You can't leave this username empty.</span>
+        </span>
+            <label class="c-grey pt8 m2" for="usernameField">Password</label>
+        <span class="m10">
+        <input type="password" id="passwordField" name="userPassword" placeholder="********" class="bb-grey pd5 clickable-blue" onclick="inputData(this);" required/>
+        <span class="c-alert pt8 none">You can't leave this password empty.</span>
+        </span>
+        </span>
+
+    </form>
+            <span class="c-grey pt8">
+                <i class="icofont-info-square c-alert"></i> By clicking login, you agree to the cookie policy of sketch services.
+            </span>
+            <button type="button" class="btn bg-blue float-r m10 c-white sh pt" data-form="login" onclick="login();" >Login</button>
+</div>

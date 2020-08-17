@@ -1,0 +1,47 @@
+%(stem.file(views/user/header.view))%
+
+<main class="">
+    <div class="forms">
+        <div>TITLE</div>
+        <div class="loginForm rd flx-c">
+            <form class="form login" id="joinForm">
+            	<label class="lb "><i class="icofont-ui-user"></i>Name</label>
+            	<input type="text" class="inputField" placeholder="Owner's name" name="owner_name" required/>
+            	
+            	<label class="lb"> <i class="icofont-ui-call"></i>Owner's Phone (<span class="c-alert">+260</span>)</label>
+                <input type="number" maxlength="10" class="inputField" name="owner_line" placeholder="Your Phone Number" required/>
+            	
+                <label class="lb b-user" for="userAccount"><i class="icofont-building"></i>Company Name</label>
+                <label class="lb"><input type="username" class="inputField username" id="usernameField" name="company_name" placeholder="Account Name" required/>
+                
+                <label class="lb " ><i class="icofont-ui-dial-phone"></i>Company line (<span class="c-alert">+260</span>)</label>
+                <input type="number" maxlength="10" class="inputField" name="company_line" placeholder="Company Line" required/>
+                
+                <label class="lb lb-password pt11" for="passwordField"><i class="icofont-ui-password"></i>Password</label>
+                <input type="password" class="inputField password pt11" id="passwordField" placeholder="Password" name="password" required>
+           
+                <label class="lb "><i class="icofont-eye-open"></i>Verify Password</label>
+                <input type="text" placeholder="Verify Password" class="inputField" name="verifyPassword" required/>
+                    
+                <p class="c-grey pt8 mt-5">
+                    <i class="icofont-info-square c-alert"></i> By clicking join you agree to the <a class="c-blue "href="/terms">terms and conditions</a> of cookies
+                </p>
+                <button type="button" onclick="join();" class="btn btn-login sh">Join <i class="icofont-thin-right"></i></button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="loading tc  w100 m50  none">
+    <h1 class="w100"><i class="icofont-spinner-alt-2 c-blue pt20 loader dl rotatscriptrdinaleates(this);"></i></h1>
+    <span class="gfont6 c-grey statusText">loading</span>
+    </div>
+    </main>
+   
+    <script src="js/loader.js"></script>
+	<script src="js/forms.js">
+		
+	</script>
+</body>
+
+
+</html>

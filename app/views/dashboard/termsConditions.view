@@ -1,0 +1,49 @@
+{% extends 'header.html' %}
+{% block terms %}
+    <main class="main mt-20">
+        <div class="settings-card bg-white w80 p10">
+            <span class="c-blue">Terms</span>
+        </div>
+        <div class="settings-card bg-white w80 p10">
+            <p class="pt8">
+                Depends from where you want to start and whether you are looking for fully operational one like Django or something micro and REST like Falcon.
+                Lets say that you are not planning to reinvent the wheel so you can use some ready tools like SQL Alchemy and Jinja2 and got for MVC architecture.
+                What a web framework consists of:
+                URL routing - do something small and simple here
+            </p>
+            <p class="pt8">
+                Views
+                Models
+                Templates
+                Try to build these sections by your own and connect them. Start small and use ready components. Once you have it working build a simple project with it. You will see where you lack flexibility and/or where to fix performance.
+                This way you will learn how to make such thing but without a mass of users to test it and request features and changes it is hard to figure out all little things from the start
+            </p>
+        </div>
+        <div class="settings-card bg-white w80 p10">
+            <span class="c-blue">Conditions</span>
+        </div>
+        <div class="settings-card bg-white w80 p10">
+            <p class="pt8">
+            	
+                Depends from where you want to start and whether you are looking for fully operational one like Django or something micro and REST like Falcon.
+                <br>
+                Lets say that you are not planning to reinvent the wheel so you can use some ready tools like SQL Alchemy and Jinja2 and got for MVC architecture.
+                <br>
+                What a web framework consists of:
+                URL routing - do something small and simple here
+            </p>
+            <p class="pt8">
+                Views
+                Models
+                Templates
+                Try to build these sections by your own and connect them. Start small and use ready components. Once you have it working build a simple project with it. You will see where you lack flexibility and/or w
+                here to fix performance.
+                <br>
+                This way you will learn how to make such thing but without a mass of users to test it and request features and changes it is hard to figure out all little things from the start
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>
+{% endblock %}

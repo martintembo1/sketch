@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-english">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link href="css/main.css" rel="stylesheet"/>
+        <link href="fonts/icofont.css" rel="stylesheet"/>
+        <link href="css/style.css" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="fonts/flaticon.css">
+        <script src="js/request.js"></script>
+        <title>SKETCH -Selling Services</title>
+    </head>
+    <body class="">
+        <header class="bg-dark h15 flx-r header w100">
+            <div class="w70 tl">
+                <i class="icofont-cart c-yellow pt25"></i>
+                <span class="pt12 gfont c-yellow ">sketch</span>
+            </div>
+            
+            <div class="burger flx-c p10 " onclick="aside();">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        
+        <div class="h100 w70 mobile-aside bg-white t">
+            <div>
+                <span class="c-blue m5">Search:</span><br>
+                <div class="flx pd5 w100 m5">
+                <input type="text" class="bd-yellow pd5 w60 "/>
+                <button class=" bg-yellow pd5"><i class="icofont-search pd5"></i></button>
+                </div>
+                <ol class="flx-c w100">
+                    <li class="click-default w100 pd5 bg-dark"><a href="#" class="c-blue ">Orders</a></li>
+                     <li class="click-default w100 pd5 bg-dark"><a href="#" class="c-blue ">Orders</a></li>
+                    
+                </ol>
+            </div>
+        </div>
+        <main class="main h100 w100 mt-20" id="main">
+            
+            <div class="current-category w100" onclick="category();">
+                <div class="flx-r bg-default pd5 w100"><span class="c-grey rotate">Category</span> <span><i class="icofont-thin-right"></i></span></div>
+            </div>
+            
+            <div>
+                
+            </div>
+            
+            
+            
+            
+            
+            <div class="category bg-dark  w100 flow-x">
+              <table class="h40 bb-grey pt8" >
+                  <tr>
+                      <td>   <a href="#" data-link="tech"class="p10 bg-gdark rd c-white"><i class="icofont-computer"></i>Technology</a></td>
+                      <td>   <a href="#" data-link="clothes" class="p10 bg-blue rd c-white pt8"><i class="flaticon-clean-clothes"></i> Clothing</a></td>
+                  </tr>
+                  <tr>
+                      <td>   <a href="#" data-link="kids" class="p10 bg-default rd c-grey "><i class="icofont-toy-ball"></i>Kids & Fun</a></td>
+                      <td>
+                             <a href="#" data-link="electronics" class="p10 bg-yellow rd c-white "><i class="icofont-ui-settings"></i>Electronics</a>
+                      </td>
+                      <td>
+                             <a href="#" data-link="foods" class="p10 bg-maroon rd c-white "><i class="icofont-fork-and-knife"></i> Foods</a>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>   <a href="#" data-link="style" class="p10 bg-white rd c-dark pt8"><i class="flaticon-hair-washing"></i>Hair & Style</a></td>
+                          <td>
+                          <a href="#" data-link="women" class="bg-crimson rd c-white p10 pt8"><i class="flaticon-woman"></i>Women</a>
+                      </td>
+                      <td>
+                           <a href="#" data-link="household" class="p10 bg-blue rd c-white "> <i class="icofont-home"></i>Household</a>
+                      </td>
+                  
+                  </tr>
+              </table>
+              <div class="recent-search w40 h70 flow-x flx-r dl abs  pt8">
+                  <span class=" pd5 rd m5">Recent Searches</span>
+              </div>
+            </div>
+            <div class="loader none tc abs w100 t-50">
+                <i class="icofont-spinner-alt-2 pt15 c-grey rotate-a  db"></i>
+                <span class="status db c-grey">loading</span>
+            </div>
+            
+          
+         <div class="root" id="root">
+             
+         </div>
+        </main>
+        <script src="script.js"></script>
+        <script ></script>
+    </body>
+</html>

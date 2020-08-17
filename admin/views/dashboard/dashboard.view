@@ -1,0 +1,50 @@
+
+<style>
+    .list div{
+        margin:5px auto;
+       
+        font-family:Arial, Sans-Serif;
+        width:90%;
+        border-radius:5px;
+    }
+    .list div:hover{
+        background-color:#DDDDDD;
+       
+    }
+    .mt-40{
+        margin-top:40%;
+    }
+</style>
+
+
+<div class="list mt-40 pt8" >
+    	<div data-link="/stock" class='w100 bg-white ma c-black p10 flx-r tabs'>
+			<span class=''>Stock Management</span>
+		<i class='icofont-shopping-cart'></i>
+		</div>
+		
+		    	<div class='w100 bg-white ma c-black p10 flx-r tabs'>
+			<span class='c-black'>Nortifications</span>
+		<i class='icofont-alarm'></i>
+		</div>
+		
+		<div class="w100 bg-white ma c-black p10 flx-r tabs">
+		    <span>Company Management</span>
+		    <i class="icofont-company"></i>
+		</div>
+		    	<div data-link="/settings" class="w100 bg-white ma c-black p10 flx-r tabs">
+			<span class='c-black '>Account Settings</span>
+		<i class='icofont-settings'></i>
+		
+		</div>
+		<div onclick="logout();" class="w100 bg-white ma c-black p10 flx-r">
+		<span class="c-alert">Log out</span> <i class="icofont-logout"></i>
+		</div>
+		
+		<button class="btn bg-dark c-white none" id="audioCapture" onclick="audioCapture();">AUDIO</button>
+
+		<button class="btn bg-yellow c-white none" id="imageCapture">IMAGE</button>
+
+		<button class="btn bg-blue c-white none" id="videoCapture">VIDEO</button>
+	  
+</div>

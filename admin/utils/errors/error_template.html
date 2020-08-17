@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	{% if title %}
+		<title>{{title}}</title>
+	{% else %}
+		<title>NoidError</title>
+	{% endif%}
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+    	*{
+    		margin:0;
+    		padding:0;
+    		box-sizing:border-box;
+    		
+    	}
+    	header{
+    		background-color:#05B008;
+    		color:#fff;
+    		padding:10px;
+    		text-align:center;
+    		position:fixed;
+    		width:100%;
+    		top:0;
+    	}
+    	h6{
+    		text-align:left;
+    		text-decoration:underline;
+    	}
+    	h6 a{
+    		color:#fff;
+    	}
+    	div{
+    		
+    	}
+    	div span{
+    		border:1px solid #dddddd;
+    		display:block;
+    		font-family:monospace;
+    		margin:5px 0;
+    		border-left:none;
+    		padding:5px;
+    		display:block;
+    	}
+    	span{
+    		display:block;
+    	}
+    	footer{
+    		background:#DDDDDD;
+    		position:fixed;
+    		bottom:0;
+    		width:100%;
+    		padding:10px;
+    		font-size:11pt;
+    	}
+    	footer a{
+    		color:grey;
+    	}
+    	.code,.path,.method,.path-error,.static,.route{
+    		display:inline;
+    		background:#F28A1C;
+    		border:none;
+    		padding:5px;
+    	}
+    	.method{
+    		background:red;
+    		color:#fff;
+    	}
+    	.error{
+    		background:;
+    		color:crimson;
+    	}
+    	.static{
+    		background:#DFC908;
+    		color:#fff;
+    	}
+    	.code{
+    		background:#1F09cd;
+    		color:#fff;
+    	}
+    	.path-error{
+    		background:#252629;
+    		color:#fff;
+    	}
+    	.route{
+    		background:;
+    		color:#fff;
+    	}
+    	
+    	address{
+    		color:#F28A1C;
+    	}
+    	main{
+    	    margin:20% 0;
+    	    overflow:scroll;
+    	}
+    	
+    	
+    </style>
+</head>
+
+<body>
+	<header>
+		<h6><a href="https://www.noid.com/errorClass">NoidError Class</a></h6>
+		<h2>{{title}}</h2>
+		
+	</header>
+	
+	<main>
+		<div>
+			<span class="error">{{title2}}</span>
+			{% if path %}
+			<span ><span class="path">PATH</span>: {{path_name}}</span>
+			{% elif methodError %}
+			<span class="">
+				<span class="method">MethodError</span>: {{methodError}}
+			</span>
+			{% elif route %}
+			
+		    <span class="">
+					    <span class="route">RouteError</span>: {{duplicateError}}
+					</span>
+			{% elif static %}
+					<span class="">
+					    <span class="static">StaticError</span>: {{staticError}}
+					</span>
+			{% elif pathError %}
+				<span class="">
+				    <span class="path-error">PathError</span>: {{pathError}}
+				</span>
+			{% elif errorCode %}
+				<span>
+					<span class="code">errorCode</span>: {{errorCode}}
+				</span>
+			{% else %}
+				{{UndefinedError}}
+			{% endif %}
+		</div>
+	</main>
+	<footer>
+		<div>
+			<address>
+				Noid Web Framework was developed in Zambia by Zambian Developers
+			</address>
+			<a href="#">Go to https://www.noid.com for help</a><br/>
+			<a href="#">See the Git Repo</a>
+		</div>
+		<div>
+			
+		</div>
+	</footer>
+</body>
+</html>
+

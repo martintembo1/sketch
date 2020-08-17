@@ -1,0 +1,27 @@
+
+        <div class="settings-card bg-white w80 p10 flx-r" onclick="toggleNext(this);">
+        	<span class="c-blue">SHA2</span>
+        	<i class="icofont-thin-down c-blue"></i>
+        </div>
+        <div class="settings-card bg-white w80 p10">
+        	<p class="pt11">
+        		This way you will learn how to make such thing but without a mass of users to test it and request features and changes it is hard to figure out all little things from the start
+        	</p>
+        </div>
+        <div class="settings-card bg-white w80 p10 flx-r" onclick="toggleNext(this);">
+        	<span class="c-blue">HASH MAPS</span>
+        	<i class="icofont-thin-down c-blue"></i>
+        </div>
+        <div class="settings-card bg-white w80 p10">
+        	<p class="pt11">
+        		This way you will learn how to make such thing but without a mass of users to test it and request features and changes it is hard to figure out all little things from the start
+        	</p>
+        </div>
+        <div class="settings-card bg-white w80 p10 flx-r" onclick="toggleNext(this);">
+            <span class="c-blue">End-to-End Encryption</span> <i class="icofont-thin-down c-blue"></i>
+        </div>
+        <div class="settings-card bg-white w80 p10">
+            <p class="pt11">
+            	This way you will learn how to make such thing but without a mass of users to test it and request features and changes it is hard to figure out all little things from the start
+            </p>
+        </div>

@@ -1,0 +1,1 @@
+DELETE ? FROM admin WHERE `owner_name`=?;

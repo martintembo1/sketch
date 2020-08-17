@@ -1,0 +1,16 @@
+<div class="bg-white z1 w100 pd5">
+<h4 class="c-grey m2 " >
+    <span class="gfont pt25">SKETCH</span>
+    <span class="float-r pt8 "><a href="#" class="c-grey"><i class="icofont-question-circle"></i> help</a></span>
+    </h4>
+    	<div class="bg-white flx-r c-blue gfont5 w100 p10">
+		<span class="bd-blue bg-white dl w40 p10 tc pt8 rd clickable-blue " onclick="account('%{link}%');">%{title}%</span>
+		<span class="bg-blue w1"></span>
+		<span class="bd-blue bg-blue c-white p10 dl w40 tc pt8 rd " onclick="gotoApp();">Web</span>
+		</div>
+</div>
+<div class="bg-alert b  w100 p10 none" id="netState" >
+<i class="icofont-info-circle c-white pd5"></i>
+<span class="c-white  pt8 p10" id="validate" > Something went wrong. Try again later</span>
+</div>
+
